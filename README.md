@@ -9,7 +9,7 @@ Use your investigative skills to find answers using open-source intelligence tec
 
 ### Included
 
-- Question hints (`Q1` to `Q7`)
+- Question hints (`Q1`,`Q2``Q6``Q7`)
 - Answer key 👉 [`Answers`](./ohsint_ans.jpg) — *Use only after completing the challenge*
 
 ---
