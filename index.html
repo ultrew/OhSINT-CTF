@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSINT CTF Challenge</title>
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #38bdf8;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background-color: #1e293b;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    code {
+      background: #334155;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    .hint {
+      background-color: #0ea5e9;
+      color: #0f172a;
+      padding: 10px;
+      margin: 10px 0;
+      border-left: 5px solid #0284c7;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85em;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔍 OSINT CTF Challenge</h1>
+    <p>Welcome to the <strong>Open Source Intelligence (OSINT)</strong> Capture The Flag challenge! Your mission is to uncover details about a target user using open-source tools and public data.</p>
+
+    <h2>🧠 About the Challenge</h2>
+    <p>This beginner-to-intermediate OSINT puzzle includes:</p>
+    <ul>
+      <li>Profile-related clues (images, networks, email traces)</li>
+      <li>Hints to guide your investigation</li>
+      <li>All answers based on publicly available information</li>
+    </ul>
+    <p><strong>Note:</strong> Don't view the answer sheet until you're done!</p>
+
+    <h2>📂 Included Files</h2>
+    <ul>
+      <li><code>ohsint_ans.jpg</code>: Final answer sheet (keep hidden until finished!)</li>
+      <li><code>WindowsXP_1551719014755.jpg</code>: Your target's image</li>
+    </ul>
+
+    <h2>🛠️ Useful Tools</h2>
+    <ul>
+      <li><code>exiftool</code> - View metadata of images</li>
+      <li><code>wigle.net</code> - Lookup WiFi SSID/BSSID</li>
+      <li><code>Wayback Machine</code> - Explore past versions of websites</li>
+      <li><code>DevTools</code> - Inspect source code in web pages</li>
+    </ul>
+
+    <h2>🧩 Questions</h2>
+    <ol>
+      <li>What is this user's avatar of?</li>
+      <li>What city is this person in?</li>
+      <li>What is the SSID of the WAP he connected to?</li>
+      <li>What is his personal email address?</li>
+      <li>What site did you find his email address on?</li>
+      <li>Where has he gone on holiday?</li>
+      <li>What is the person’s password?</li>
+    </ol>
+
+    <h2>🕵️‍♂️ Hints</h2>
+    <div class="hint">
+      <strong>Q1:</strong> Use <code>exiftool</code> to find the image author. Check for author metadata or software used.
+    </div>
+    <div class="hint">
+      <strong>Q2:</strong> Combine the BSSID + SSID with <a href="https://wigle.net/" target="_blank">WiGLE.net</a>.
+    </div>
+    <div class="hint">
+      <strong>Q6:</strong> If the website is down, use the <a href="https://archive.org/web/" target="_blank">Wayback Machine</a>.
+    </div>
+    <div class="hint">
+      <strong>Q7:</strong> View source code in browser. Hidden info might be in HTML comments or scripts.
+    </div>
+
+    <h2>✅ How to Play</h2>
+    <ol>
+      <li>Download this project or open via GitHub Pages</li>
+      <li>Use the hints and tools above to answer each question</li>
+      <li>Document your methodology and tools used</li>
+      <li>When done, cross-check your answers with <code>ohshint ans.jpg</code></li>
+    </ol>
+
+    <h2>⚠️ Rules</h2>
+    <ul>
+      <li>All data used is public or fictional for training purposes</li>
+      <li>Do not view answers until you've finished</li>
+      <li>Do not use OSINT tools on real people without consent</li>
+    </ul>
+
+    <footer>
+      Created for educational OSINT practice. Stay ethical & have fun! 🌟
+    </footer>
+  </div>
+</body>
+</html>
