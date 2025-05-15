@@ -1,4 +1,4 @@
-# OSINT CTF Challenge
+# OHSINT CTF Challenge
 
 Welcome to the OSINT Capture The Flag challenge!  
 Use your investigative skills to find answers using open-source intelligence techniques.
